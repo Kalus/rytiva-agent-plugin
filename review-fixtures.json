@@ -1,0 +1,29 @@
+{
+  "format": "rytiva-review-fixtures-v1",
+  "note": "Synthetic tool inputs only. No users, credentials or server-assigned IDs. Use an isolated reviewer account and a fresh idempotency key for each new test run.",
+  "create_walk": {
+    "user_confirmed": true,
+    "source": "chatgpt",
+    "idempotency_key": "review-walk-RUN-1",
+    "title": "Reviewer Walk",
+    "goal": "Five minutes of easy walking",
+    "estimated_minutes": 5,
+    "purpose": "cardio",
+    "difficulty": "easy",
+    "required_equipment": [],
+    "scheduled_weekdays": [],
+    "scheduled_dates": [],
+    "sections": [
+      {
+        "name": "Walk",
+        "steps": [
+          {
+            "type": "timed_exercise",
+            "name": "Easy walk",
+            "duration_seconds": 300
+          }
+        ]
+      }
+    ]
+  }
+}

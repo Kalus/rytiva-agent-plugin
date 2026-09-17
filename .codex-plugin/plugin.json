@@ -1,0 +1,43 @@
+{
+  "name": "repdeck",
+  "version": "0.2.0",
+  "description": "Plan workouts, send them to Rytiva, and review your training.",
+  "author": {
+    "name": "Lukas Fauset",
+    "email": "lfauset@gmail.com",
+    "url": "https://repdeck-bridge.lukasfauset.workers.dev"
+  },
+  "homepage": "https://repdeck-bridge.lukasfauset.workers.dev/docs/mcp",
+  "keywords": [
+    "fitness",
+    "workouts",
+    "apple-watch",
+    "healthkit"
+  ],
+  "interface": {
+    "displayName": "Rytiva",
+    "shortDescription": "Plan workouts and review your training.",
+    "longDescription": "Create, adjust, and schedule workouts for Rytiva on iPhone and Apple Watch. Review your workout inbox, completed sessions, and limited training summaries. Prescription and schedule changes require Rytiva Pro. TestFlight and App Store builds use the same account and workout library.",
+    "developerName": "Lukas Fauset",
+    "category": "Health & Fitness",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://repdeck-bridge.lukasfauset.workers.dev",
+    "privacyPolicyURL": "https://repdeck-bridge.lukasfauset.workers.dev/privacy",
+    "termsOfServiceURL": "https://repdeck-bridge.lukasfauset.workers.dev/terms",
+    "defaultPrompt": [
+      "Create a five-minute stretching workout in Rytiva.",
+      "Show the workouts in my Rytiva inbox.",
+      "Review my recent training and suggest my next workout."
+    ],
+    "brandColor": "#6544B8",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  },
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "license": "MIT",
+  "repository": "https://github.com/Kalus/rytiva-agent-plugin"
+}

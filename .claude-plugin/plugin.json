@@ -1,0 +1,22 @@
+{
+  "name": "repdeck",
+  "version": "0.2.0",
+  "description": "Plan workouts, send them to Rytiva, and review your training.",
+  "author": {
+    "name": "Lukas Fauset",
+    "email": "lfauset@gmail.com",
+    "url": "https://repdeck-bridge.lukasfauset.workers.dev"
+  },
+  "homepage": "https://rytiva.com/claude-plugin/",
+  "keywords": [
+    "fitness",
+    "workouts",
+    "apple-watch",
+    "healthkit"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "displayName": "Rytiva",
+  "license": "MIT",
+  "repository": "https://github.com/Kalus/rytiva-agent-plugin"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "repdeck": {
+      "type": "http",
+      "url": "https://repdeck-bridge.lukasfauset.workers.dev/mcp"
+    }
+  }
+}
