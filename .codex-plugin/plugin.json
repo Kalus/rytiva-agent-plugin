@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "description": "Plan workouts, send them to Rytiva, and review your training.",
   "author": {
-    "name": "Lukas Fauset",
-    "email": "lfauset@gmail.com",
-    "url": "https://repdeck-bridge.lukasfauset.workers.dev"
+    "name": "MossFauset Digital",
+    "email": "support@rytiva.com",
+    "url": "https://rytiva.com/"
   },
   "homepage": "https://repdeck-bridge.lukasfauset.workers.dev/docs/mcp",
   "keywords": [
@@ -18,7 +18,7 @@
     "displayName": "Rytiva",
     "shortDescription": "Plan workouts and review your training.",
     "longDescription": "Create, adjust, and schedule workouts for Rytiva on iPhone and Apple Watch. Review your workout inbox, completed sessions, and limited training summaries. Prescription and schedule changes require Rytiva Pro. TestFlight and App Store builds use the same account and workout library.",
-    "developerName": "Lukas Fauset",
+    "developerName": "MossFauset Digital",
     "category": "Health & Fitness",
     "capabilities": [
       "Interactive",

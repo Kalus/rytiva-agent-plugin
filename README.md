@@ -43,7 +43,7 @@ Single-instance changes require real occurrence IDs and a current revision. The 
 
 The root `.mcp.json` supplies the same endpoint to the Codex and Claude manifests. Both use the two shared skill folders. A public OpenAI submission must scan this remote server directly; an existing integration ID is not the submission artifact. Claude's Cowork/Code plugin and its chat connector are distinct distribution paths.
 
-This thin plugin bundle is licensed under the [MIT License](LICENSE), copyright 2026 Lukas Fauset. That license applies to this bundle only; it does not license the separately hosted Rytiva service, iPhone/Watch app, or backend repository. Service access remains subject to its terms and entitlements. Maintainers export an explicit allowlist; app/backend code and local integration configuration are not included.
+This thin plugin bundle is licensed under the [MIT License](LICENSE), copyright 2026 MossFauset Digital. That license applies to this bundle only; it does not license the separately hosted Rytiva service, iPhone/Watch app, or backend repository. Service access remains subject to its terms and entitlements. Maintainers export an explicit allowlist; app/backend code and local integration configuration are not included.
 
 Initial directory distribution is planned for the United States. Directory review and live connection testing remain pending; a public source repository is not directory approval.
 
