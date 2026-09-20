@@ -2,13 +2,13 @@
 
 Plan workouts in conversation, send them to Rytiva on iPhone and Apple Watch, and review your recorded training. Useful workout and history cards remain available in compatible clients.
 
-This package is prepared for local validation. Public directory availability is not established by this repository. The internal package name and `repdeck_` tool prefix remain stable for compatibility; the displayed product is Rytiva.
+This package is prepared for local validation. Public directory availability is not established by this repository. The displayed product and public MCP tool namespace are Rytiva.
 
 ## Connect
 
 The remote MCP endpoint is `https://api.rytiva.com/mcp` (Streamable HTTP). Use your host's normal OAuth connection flow and sign in with your existing Rytiva account. Do not put credentials in chat, skill files, or MCP headers. The package requires no local server or API key.
 
-Verified identity-provider authority/subject pairs link to a durable Rytiva account. Email equality alone does not merge accounts. TestFlight and App Store app installations use this same service and workout library; there is no separate Beta connector to select.
+Verified identity-provider authority/subject pairs link to a durable Rytiva account. Email equality alone does not merge accounts. TestFlight and App Store app installations use this same production service and workout library; there is only one connector to select.
 
 Reading the library and history uses the connected account. Creating or changing prescriptions and schedules requires Rytiva Pro. A service or entitlement error must not be presented as a successful save.
 
@@ -27,7 +27,7 @@ Catalog membership does not guarantee playable video. Resolve references silentl
 
 The server currently exposes 19 tools:
 
-| Capability | Tools (all begin with `repdeck_`) |
+| Capability | Tools (all begin with `rytiva_`) |
 | --- | --- |
 | Exercise lookup | `find_exercise_reference_media`, `list_exercise_reference_media` |
 | Direct plan changes | `create_workout`, `update_workout`, `schedule_workout`, `apply_workout_command` |

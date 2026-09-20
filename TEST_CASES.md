@@ -25,7 +25,7 @@ For history, complete two short synthetic sessions using A's app before testing;
 | P9 | “Save this changed prescription only for this dated instance.” | `apply_workout_command` with `this_occurrence`, real template/occurrence/date/revision and exact approved replacement returns applied receipt. Verify template and other occurrences unchanged through authorized app/harness. | A, genuine occurrence fixture; blocked without it |
 | P10 | “Record this as a draft only.” Then inspect the draft and approve/apply it after a separate explicit instruction. | `propose_workout`, `list_workout_proposals`, `get_workout_proposal`, `decide_workout_proposal`, `apply_workout_proposal`. Draft receipt means recorded, not saved. Follow supported proposed→needs_resolution→ready_for_review→approved transitions after resolving choices; application alone proves save. Repeated application returns its receipt. Separately dismiss another draft and verify terminal payload removed. | A, new versioned command from live schema, unique UUID/timestamp |
 
-Tool suffixes above retain the `repdeck_` prefix. For P5/P7, verify the exact result fields against the current tool output schema; do not mistake a content string for structured data. Record host, server scan/version evidence, case, sanitized expected/actual shape and pass/fail/blocked. Never attest every tool tested while any case is blocked.
+Tool names above use the public `rytiva_` prefix. For P5/P7, verify the exact result fields against the current tool output schema; do not mistake a content string for structured data. Record host, server scan/version evidence, case, sanitized expected/actual shape and pass/fail/blocked. Never attest every tool tested while any case is blocked.
 
 ## Negative cases
 
