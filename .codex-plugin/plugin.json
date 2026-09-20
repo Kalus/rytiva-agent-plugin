@@ -7,7 +7,7 @@
     "email": "support@rytiva.com",
     "url": "https://rytiva.com/"
   },
-  "homepage": "https://repdeck-bridge.lukasfauset.workers.dev/docs/mcp",
+  "homepage": "https://api.rytiva.com/docs/mcp",
   "keywords": [
     "fitness",
     "workouts",
@@ -24,9 +24,9 @@
       "Interactive",
       "Write"
     ],
-    "websiteURL": "https://repdeck-bridge.lukasfauset.workers.dev",
-    "privacyPolicyURL": "https://repdeck-bridge.lukasfauset.workers.dev/privacy",
-    "termsOfServiceURL": "https://repdeck-bridge.lukasfauset.workers.dev/terms",
+    "websiteURL": "https://rytiva.com/",
+    "privacyPolicyURL": "https://api.rytiva.com/privacy",
+    "termsOfServiceURL": "https://api.rytiva.com/terms",
     "defaultPrompt": [
       "Create a five-minute stretching workout in Rytiva.",
       "Show the workouts in my Rytiva inbox.",

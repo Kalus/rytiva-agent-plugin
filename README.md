@@ -6,7 +6,7 @@ This package is prepared for local validation. Public directory availability is 
 
 ## Connect
 
-The remote MCP endpoint is `https://repdeck-bridge.lukasfauset.workers.dev/mcp` (Streamable HTTP). Use your host's normal OAuth connection flow and sign in with your existing Rytiva account. Do not put credentials in chat, skill files, or MCP headers. The package requires no local server or API key.
+The remote MCP endpoint is `https://api.rytiva.com/mcp` (Streamable HTTP). Use your host's normal OAuth connection flow and sign in with your existing Rytiva account. Do not put credentials in chat, skill files, or MCP headers. The package requires no local server or API key.
 
 Verified identity-provider authority/subject pairs link to a durable Rytiva account. Email equality alone does not merge accounts. TestFlight and App Store app installations use this same service and workout library; there is no separate Beta connector to select.
 
@@ -49,6 +49,6 @@ Initial directory distribution is planned for the United States. Directory revie
 
 ## Privacy and support
 
-Rytiva processes authored plans, completion history, set notes and limited workout/heart-rate summaries, not your complete HealthKit history. Authorizing an assistant makes requested data available to that service. See the [privacy policy](https://repdeck-bridge.lukasfauset.workers.dev/privacy), [terms](https://repdeck-bridge.lukasfauset.workers.dev/terms), [support](https://repdeck-bridge.lukasfauset.workers.dev/support) and [connection documentation](https://repdeck-bridge.lukasfauset.workers.dev/docs/mcp).
+Rytiva processes authored plans, completion history, set notes and limited workout/heart-rate summaries, not your complete HealthKit history. Authorizing an assistant makes requested data available to that service. See the [privacy policy](https://api.rytiva.com/privacy), [terms](https://api.rytiva.com/terms), [support](https://api.rytiva.com/support) and [connection documentation](https://api.rytiva.com/docs/mcp).
 
 Support is available at support@rytiva.com. Never include authentication codes, tokens or passwords in a support report. The plugin homepage is https://rytiva.com/claude-plugin/; directory review and live connection testing remain publication gates.

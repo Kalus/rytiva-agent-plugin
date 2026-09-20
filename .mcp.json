@@ -2,7 +2,7 @@
   "mcpServers": {
     "repdeck": {
       "type": "http",
-      "url": "https://repdeck-bridge.lukasfauset.workers.dev/mcp"
+      "url": "https://api.rytiva.com/mcp"
     }
   }
 }
