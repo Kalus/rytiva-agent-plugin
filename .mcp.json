@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "repdeck": {
+    "rytiva": {
       "type": "http",
       "url": "https://api.rytiva.com/mcp"
     }
